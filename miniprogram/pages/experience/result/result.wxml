@@ -1,0 +1,48 @@
+<view class="titleContainer">
+  <text class="big-title">4.查看实验结果</text>
+  <view class="return" bindtap="returnTap">返回</view>
+</view>
+<view class="table">
+  <view class="title2">GBDT算法结果</view>
+  <view class="tr">
+    <view class="th">accuracy</view>
+    <view class="td">{{resultArray1[0]}}</view>
+  </view>
+  <view class="tr">
+    <view class="th">recall</view>
+    <view class="td">{{resultArray1[1]}}</view>
+  </view>
+  <view class="tr">
+    <view class="th">precision</view>
+    <view class="td">{{resultArray1[2]}}</view>
+  </view>
+  <view class="tr">
+    <view class="th">fMeasure</view>
+    <view class="td">{{resultArray1[3]}}</view>
+  </view>
+  <view class="tr">
+    <view class="th">rocArea</view>
+    <view class="td">{{resultArray1[4]}}</view>
+  </view>
+</view>
+<view class="title2">AdaBoost算法结果</view>
+  <view class="tr">
+    <view class="th">accuracy</view>
+    <view class="td">{{resultArray2[0]}}</view>
+  </view>
+  <view class="tr">
+    <view class="th">recall</view>
+    <view class="td">{{resultArray2[1]}}</view>
+  </view>
+  <view class="tr">
+    <view class="th">precision</view>
+    <view class="td">{{resultArray2[2]}}</view>
+  </view>
+  <view class="tr">
+    <view class="th">fMeasure</view>
+    <view class="td">{{resultArray2[3]}}</view>
+  </view>
+  <view class="tr">
+    <view class="th">rocArea</view>
+    <view class="td">{{resultArray2[4]}}</view>
+  </view>

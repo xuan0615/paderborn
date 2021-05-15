@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container">
+  <image src="/images/123.jpg" style="width:100%"></image>
+  <button bindtap="navToPre" class='button'>点击进入模型分类评估实验</button>
+</view>

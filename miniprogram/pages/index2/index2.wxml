@@ -1,0 +1,115 @@
+<view class='box1'>
+    <view class="title3"> Now:{{time}}</view>
+</view>
+<scroll-view scroll-x scroll-y style="width: 100%; height: 400px;margin-top:2px">
+<view class='gkContentBox'>
+    1号轴承:
+    <text style="color:green;font-weight:bold" wx:if='{{labels1[k]==0}}'>正常</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels1[k]==1}}'>外环一级损伤</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels1[k]==2}}'>外环二级损伤</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels1[k]==3}}'>内环一级损伤</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels1[k]==4}}'>内环二级损伤</text>
+</view>
+
+<view class='gkContentBox'>
+    2号轴承:
+    <text style="color:green;font-weight:bold" wx:if='{{labels2[k]==0}}'>正常</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels2[k]==1}}'>外环一级损伤</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels2[k]==2}}'>外环二级损伤</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels2[k]==3}}'>内环一级损伤</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels2[k]==4}}'>内环二级损伤</text>
+</view>
+
+<view class='gkContentBox'>
+    3号轴承:
+    <text style="color:green;font-weight:bold" wx:if='{{labels3[k]==0}}'>正常</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels3[k]==1}}'>外环一级损伤</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels3[k]==2}}'>外环二级损伤</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels3[k]==3}}'>内环一级损伤</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels3[k]==4}}'>内环二级损伤</text>
+</view>
+
+<view class='gkContentBox'>
+    4号轴承:
+    <text style="color:green;font-weight:bold" wx:if='{{labels4[k]==0}}'>正常</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels4[k]==1}}'>外环一级损伤</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels4[k]==2}}'>外环二级损伤</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels4[k]==3}}'>内环一级损伤</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels4[k]==4}}'>内环二级损伤</text>
+</view>
+
+<view class='gkContentBox'>
+    5号轴承:
+    <text style="color:green;font-weight:bold" wx:if='{{labels5[k]==0}}'>正常</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels5[k]==1}}'>外环一级损伤</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels5[k]==2}}'>外环二级损伤</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels5[k]==3}}'>内环一级损伤</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels5[k]==4}}'>内环二级损伤</text>
+</view>
+
+<view class='gkContentBox'>
+   6号轴承:
+    <text style="color:green;font-weight:bold" wx:if='{{labels6[k]==0}}'>正常</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels6[k]==1}}'>外环一级损伤</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels6[k]==2}}'>外环二级损伤</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels6[k]==3}}'>内环一级损伤</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels6[k]==4}}'>内环二级损伤</text>
+</view>
+
+<view class='gkContentBox'>
+   7号轴承:
+    <text style="color:green;font-weight:bold" wx:if='{{labels7[k]==0}}'>正常</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels7[k]==1}}'>外环一级损伤</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels7[k]==2}}'>外环二级损伤</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels7[k]==3}}'>内环一级损伤</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels7[k]==4}}'>内环二级损伤</text>
+</view>
+
+<view class='gkContentBox'>
+   8号轴承:
+    <text style="color:green;font-weight:bold" wx:if='{{labels8[k]==0}}'>正常</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels8[k]==1}}'>外环一级损伤</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels8[k]==2}}'>外环二级损伤</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels8[k]==3}}'>内环一级损伤</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels8[k]==4}}'>内环二级损伤</text>
+</view>
+
+<view class='gkContentBox'>
+   9号轴承:
+    <text style="color:green;font-weight:bold" wx:if='{{labels9[k]==0}}'>正常</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels9[k]==1}}'>外环一级损伤</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels9[k]==2}}'>外环二级损伤</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels9[k]==3}}'>内环一级损伤</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels9[k]==4}}'>内环二级损伤</text>
+</view>
+
+<view class='gkContentBox'>
+  10号轴承:
+    <text style="color:green;font-weight:bold" wx:if='{{labels10[k]==0}}'>正常</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels10[k]==1}}'>外环一级损伤</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels10[k]==2}}'>外环二级损伤</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels10[k]==3}}'>内环一级损伤</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels10[k]==4}}'>内环二级损伤</text>
+</view>
+
+<view class='gkContentBox'>
+   11号轴承:
+    <text style="color:green;font-weight:bold" wx:if='{{labels11[k]==0}}'>正常</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels11[k]==1}}'>外环一级损伤</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels11[k]==2}}'>外环二级损伤</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels11[k]==3}}'>内环一级损伤</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels11[k]==4}}'>内环二级损伤</text>
+</view>
+
+<view class='gkContentBox'>
+   12号轴承:
+    <text style="color:green;font-weight:bold" wx:if='{{labels12[k]==0}}'>正常</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels12[k]==1}}'>外环一级损伤</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels12[k]==2}}'>外环二级损伤</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels12[k]==3}}'>内环一级损伤</text>
+    <text style="color:red;font-weight:bold" wx:elif='{{labels12[k]==4}}'>内环二级损伤</text>
+</view>
+
+</scroll-view>
+
+
